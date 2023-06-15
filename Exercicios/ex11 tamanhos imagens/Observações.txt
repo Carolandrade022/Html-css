@@ -1,0 +1,1 @@
+Adaptar o tamanho da imagem para dispositivos.

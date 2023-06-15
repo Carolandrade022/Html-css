@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem dinamica</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em diversos dispositivos</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png">
+        <img src="imagens/fotoG.png" alt="imagem flexivel"></picture>
+        <h1>Reproduzindo audio</h1>
+        <p>Vamos aprende a colocar audio no site em HTML5</p>
+        <audio src="midia/Shake It - Aakash Gandhi.mp3"autoplay controls></audio>
+        <p>Outro forma para colocar audio se seu navegador nao for compativel</p>
+        <audio autoplay
+        source src="midia/Shake It - Aakash Gandhi.mp3"type="audio/mp3"
+        ></audio>
+        <h1>Colocar videos youtube</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/suL56Mdx22Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h1>Colocar videos</h1>
+        <video src="link do video"width="560"autoplay controls></video>
+</body>
+</html>
